@@ -5,10 +5,23 @@
   font-style: normal;
 }
 
+/* body {
+  min-height: 100vh;
+  background-image: linear-gradient(to right bottom, #e0e2e3, #d1d9e5, #c1d5e8, #b0cfec, #9ec8f1);
+} */
+
+button:hover {
+  cursor: pointer;
+  background-color: #6a65ffc9;
+}
 
 /* shared styles */
 .text-color {
   color: #6a65ff;
+}
+
+.description-color {
+  color: #25243294;
 }
 
 .btn-primary {
@@ -19,7 +32,7 @@
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.337);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.266);
   cursor: pointer;
 }
 
@@ -31,7 +44,7 @@
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.337);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.266);
   cursor: pointer;
   margin-bottom: 155px;
 }
@@ -68,10 +81,48 @@ nav li a {
 /* banner styles */
 .banner {
   text-align: center;
-  margin: 250px 250px;
 }
 
 .banner-description {
   font-size: 65px;
   font-weight: bold;
+  margin-top: 110px;
+}
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+main div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* action styles */
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-content {
+  max-width: 480px;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action-description {
+  font-size: 24px;
+  font-weight: 400px;
+}
+
+.action-pic {
+  width: 403px;
+  height: 328px;
+  border-radius: 40px;
 }
