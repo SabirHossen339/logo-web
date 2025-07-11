@@ -13,10 +13,10 @@
   font-style: normal;
 }
 
-/* body {
+body {
   min-height: 100vh;
-  background-image: linear-gradient(to right bottom, #e0e2e3, #d1d9e5, #c1d5e8, #b0cfec, #9ec8f1);
-} */
+  background-color: #4763ff1f;
+}
 
 button:hover {
   cursor: pointer;
@@ -68,7 +68,7 @@ button:hover {
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.266);
   cursor: pointer;
-  /* margin-bottom: 155px; */
+  margin-top: 20px;
 }
 
 /* header styles */
@@ -290,4 +290,34 @@ section textarea {
 .form-title {
   font-size: 18px;
   font-weight: 600px;
+}
+
+/* footer style */
+footer {
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 16px;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px 15px 20px 15px;
 }
