@@ -57,6 +57,20 @@ button:hover {
   margin-bottom: 155px;
 }
 
+.btn-third {
+  background-color: #6a65ff;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding: 19px 101px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.266);
+  cursor: pointer;
+  /* margin-bottom: 155px; */
+}
+
 /* header styles */
 .header {
   background-image: url(../images/Hero-bg.png);
@@ -232,4 +246,48 @@ main section {
 .reviewer-description {
   display: flex;
   flex-direction: column;
+}
+
+/* newsletter styles */
+.newsletter {
+  display: flex;
+  gap: 115px;
+}
+
+.newsletter-title {
+  font-size: 97px;
+  font-weight: bold;
+}
+
+section input[type='text'] {
+  height: 50px;
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+
+section input[type='email'] {
+  height: 50px;
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+
+
+section textarea {
+  height: 110px;
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+
+.form-title {
+  font-size: 18px;
+  font-weight: 600px;
 }
